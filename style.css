@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul a{
+    color: gray;
+    text-decoration: none;
+}
+.home-animation{
+    transition: 0.3s;
+    border-bottom: 4px solid white;
+}
+.home-animation:hover{
+    border-bottom: 4px solid gray;
+}
+.features-animation{
+    transition: 0.1s;
+}
+.features-animation:hover{
+    border-bottom: 4px solid gray;
+}
+.contact-animation{
+    transition: 0.1s;
+}
+.contact-animation:hover{
+    border-bottom: 4px solid gray;
+}
